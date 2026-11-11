@@ -54,4 +54,4 @@ jobs:
           username: ubuntu
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-            bash ~deploy/deploy.sh ${{ secrets.DOCKER_USERNAME }}/likelion-cicd:${{ github.sha }}
+            bash ~/deploy/deploy.sh ${{ secrets.DOCKER_USERNAME }}/likelion-cicd:${{ github.sha }}
