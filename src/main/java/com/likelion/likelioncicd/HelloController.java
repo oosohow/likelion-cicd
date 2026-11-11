@@ -11,7 +11,7 @@ public class HelloController {
     private String color;
 
     @GetMapping("/")
-    public String hi() {
+    public String hello() {
         return "Hello, 아기사자! v1 (" + color + ")";
     }
 }
